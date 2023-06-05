@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Splash_screen"
     android:orientation="vertical"
     android:background="#FFFFFF"
     android:theme="@style/Theme.Design.NoActionBar"
@@ -19,8 +19,6 @@
         android:src="@drawable/logo"
         android:foregroundGravity="center" />
 
-     
-
     <ProgressBar
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="51dp"
@@ -31,7 +29,5 @@
         android:max="100"
         android:outlineSpotShadowColor="#000000"
         android:progress="0" />
-
-
 
 </LinearLayout>
