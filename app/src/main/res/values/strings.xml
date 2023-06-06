@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Shopee</string>
+    <string name="name">Name</string>
+    <string name="outlinedbox">OutlinedBox</string>
 </resources>

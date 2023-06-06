@@ -41,7 +41,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -49,7 +49,7 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/textfieldshape"
             android:drawableLeft="@drawable/baseline_person"
-            android:hint=" Username"
+            android:hint=" Email"
             android:padding="17sp"
             android:textAlignment="textStart"
             android:inputType="text"
@@ -74,10 +74,10 @@
 
     </LinearLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/nextbtn"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="53dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="-30dp"
         android:layout_marginRight="50dp"

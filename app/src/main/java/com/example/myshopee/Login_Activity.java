@@ -25,7 +25,7 @@ public class Login_Activity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        username = findViewById(R.id.username);
+        username = findViewById(R.id.email);
         password = findViewById(R.id.password);
         nxtBtn = findViewById(R.id.nextbtn);
 
@@ -34,6 +34,7 @@ public class Login_Activity extends AppCompatActivity
 
         regiHere = findViewById(R.id.registerhere);
 
+        /**  for next OTP verification page    */
         nxtBtn.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -43,5 +44,21 @@ public class Login_Activity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+
+        /**  For Registration page  */
+        regiHere.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(Login_Activity.this,Registration_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        /**  For Signin with Google */
+
+
+        /** For Signin with Facebook */
     }
 }
